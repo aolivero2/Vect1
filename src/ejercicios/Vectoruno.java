@@ -199,7 +199,7 @@ public class Vectoruno extends javax.swing.JFrame {
         double n;
      
         for (int i = 0; i < v.length; i++) {
-            //n=(int)(Math.random()* + 1);
+            n=(int)(Math.random()* + 1);
             n=i+1;
             v[i]=1;
         }
