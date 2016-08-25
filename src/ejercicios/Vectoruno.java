@@ -91,7 +91,7 @@ public class Vectoruno extends javax.swing.JFrame {
                 cmdCrearActionPerformed(evt);
             }
         });
-        jPanel4.add(cmdCrear, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 80, 30));
+        jPanel4.add(cmdCrear, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 80, 30));
 
         cmdMostrar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         cmdMostrar.setText("Mostrar");
@@ -109,7 +109,7 @@ public class Vectoruno extends javax.swing.JFrame {
                 cmdLlenadoAActionPerformed(evt);
             }
         });
-        jPanel4.add(cmdLlenadoA, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, -1, -1));
+        jPanel4.add(cmdLlenadoA, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, -1, -1));
 
         cmdLlenadoM.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         cmdLlenadoM.setText("Llenado Manual");
@@ -118,7 +118,7 @@ public class Vectoruno extends javax.swing.JFrame {
                 cmdLlenadoMActionPerformed(evt);
             }
         });
-        jPanel4.add(cmdLlenadoM, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, -1, -1));
+        jPanel4.add(cmdLlenadoM, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
 
         cmdBorrar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         cmdBorrar.setText("Borrar");
@@ -127,9 +127,9 @@ public class Vectoruno extends javax.swing.JFrame {
                 cmdBorrarActionPerformed(evt);
             }
         });
-        jPanel4.add(cmdBorrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 180, -1, -1));
+        jPanel4.add(cmdBorrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 180, -1, -1));
 
-        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 100, 170, 250));
+        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 100, 180, 250));
 
         jLabel2.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 51, 51));
