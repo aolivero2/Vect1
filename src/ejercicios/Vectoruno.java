@@ -47,8 +47,10 @@ public class Vectoruno extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(255, 255, 153));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jPanel2.setBackground(new java.awt.Color(255, 255, 204));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Datos inicial:"));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -64,6 +66,7 @@ public class Vectoruno extends javax.swing.JFrame {
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 80, 200, 110));
 
+        jPanel3.setBackground(new java.awt.Color(255, 255, 204));
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Resultado:"));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -76,9 +79,12 @@ public class Vectoruno extends javax.swing.JFrame {
 
         jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, 220, 180));
 
+        jPanel4.setBackground(new java.awt.Color(255, 255, 204));
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Opciones:"));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        cmdCrear.setBackground(new java.awt.Color(255, 255, 255));
+        cmdCrear.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         cmdCrear.setText("Crear");
         cmdCrear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -87,6 +93,7 @@ public class Vectoruno extends javax.swing.JFrame {
         });
         jPanel4.add(cmdCrear, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 80, 30));
 
+        cmdMostrar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         cmdMostrar.setText("Mostrar");
         cmdMostrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -95,34 +102,39 @@ public class Vectoruno extends javax.swing.JFrame {
         });
         jPanel4.add(cmdMostrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 140, -1, -1));
 
+        cmdLlenadoA.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         cmdLlenadoA.setText("Llenado Automatico");
         cmdLlenadoA.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cmdLlenadoAActionPerformed(evt);
             }
         });
-        jPanel4.add(cmdLlenadoA, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, -1, -1));
+        jPanel4.add(cmdLlenadoA, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, -1, -1));
 
+        cmdLlenadoM.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         cmdLlenadoM.setText("Llenado Manual");
         cmdLlenadoM.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cmdLlenadoMActionPerformed(evt);
             }
         });
-        jPanel4.add(cmdLlenadoM, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, -1, -1));
+        jPanel4.add(cmdLlenadoM, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, -1, -1));
 
+        cmdBorrar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         cmdBorrar.setText("Borrar");
         cmdBorrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cmdBorrarActionPerformed(evt);
             }
         });
-        jPanel4.add(cmdBorrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 180, -1, -1));
+        jPanel4.add(cmdBorrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 180, -1, -1));
 
         jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 100, 170, 250));
 
-        jLabel2.setText("    OPERACIONES");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 20, 100, 40));
+        jLabel2.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 51, 51));
+        jLabel2.setText("      OPERACIONES");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 30, 180, 40));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
